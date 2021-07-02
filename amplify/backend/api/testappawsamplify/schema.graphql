@@ -1,0 +1,4 @@
+type AmplifyTestObject @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  untitledfield: String
+}
