@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
           value:
               amplifyObject.value + '[UPDATED THE DATA VALUE SUCCESSFULLY !!]');
       await Amplify.DataStore.save(updatedObject);
-      print('Updated object : ${updatedObject.toString()}');
+      print('Updated object : $updatedObject');
     } catch (e) {
       print(e);
     }
